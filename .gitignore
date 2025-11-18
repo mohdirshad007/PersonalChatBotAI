@@ -1,0 +1,95 @@
+############################
+# .NET / C# build outputs
+############################
+bin/
+obj/
+out/
+artifacts/
+
+############################
+# Visual Studio
+############################
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+############################
+# Visual Studio Code
+############################
+.vscode/
+*.code-workspace
+
+############################
+# Build results
+############################
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+############################
+# NuGet
+############################
+*.nupkg
+packages/
+*.snupkg
+
+############################
+# Rider / JetBrains
+############################
+.idea/
+*.DotSettings.user
+
+############################
+# Temporary files
+############################
+*.tmp
+*.temp
+*.swp
+*.bak
+
+############################
+# Logs
+############################
+*.log
+logs/
+
+############################
+# OS-generated files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Docker
+############################
+docker-compose.override.yml
+**/docker/*.pid
+*.tar
+*.img
+*.tmp
+
+############################
+# AI API & Keys (IMPORTANT)
+############################
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# If API keys are in appsettings.json, exclude it:
+# Uncomment the next line ONLY if storing keys here:
+# appsettings.json
+
+############################
+# User Secrets
+############################
+**/Properties/launchSettings.json
+
+############################
+# Publish folders
+############################
+/publish/
