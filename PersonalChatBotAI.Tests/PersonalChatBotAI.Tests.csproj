@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TestDockerApp\TestDockerApp.csproj" />
+    <ProjectReference Include="..\TestDockerApp\PersonalChatBotAI.csproj" />
   </ItemGroup>
 
 </Project>
